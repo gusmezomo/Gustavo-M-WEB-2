@@ -19,7 +19,6 @@ body {
   max-width: 400px;
 }
 
-/* Avatar com efeito circular */
 .avatar {
   width: 70px;
   margin: 0 auto 20px;
@@ -29,7 +28,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Botões */
 .botoes {
   display: flex;
   flex-direction: column;
@@ -50,7 +48,7 @@ body {
   background-color: #45a049;
 }
 
-/* Layout desktop */
+/* desktop */
 @media (min-width: 501px) {
   body {
     justify-content: center;
@@ -59,7 +57,7 @@ body {
 
   .card {
     max-width: 440px;
-    padding: 30px 35px;
+    padding: 15px 20px;
     text-align: left;
   }
 
@@ -92,10 +90,11 @@ body {
     justify-content: center;
     gap: 15px;
   }
-
+  
   .botoes button {
-    width: 130px;
+    width: 1000px; 
     font-size: 15px;
     padding: 12px;
   }
+  
 }
